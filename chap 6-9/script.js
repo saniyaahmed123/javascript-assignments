@@ -1,22 +1,4 @@
-var a = 10;
- document.write('<div>');
-document.write("the value of a is: " + a + "<br>");
-document.write("..........................................." + "<br>");
 
-document.write("the  value of ++a is "+ ++a + "<br>");
-document.write(" NOW , the  value of ++a is "+ a + "<br>");
-
-document.write("the  value of a++ is "+ a++ + "<br>");
-document.write(" NOW , the  value of ++a is "+ a + "<br>");
-
-document.write("the  value of --a is "+ --a + "<br>");
-document.write(" NOW , the  value of --a is "+ a + "<br>");
-
-document.write("the  value of a-- is "+ a-- + "<br>");
-document.write(",  NOW the  value of a-- is "+ a + "<br>");
-document.write('</div>');
-
-TASK2
  
 var a = 2;
 var b = 1;
@@ -26,12 +8,13 @@ document.write("a    is " + a + "<br>");
 document.write("b    is " + b + "<br>");
 document.write("result    is " + result+ "<br>");
 document.write('</div>');
+document.write("<br>");
 
-TASK3
+// TASK3
 
  var user_name = prompt("enter your name","user");
- document.write('<div>Welcome '+ user_name + '  👋  </div>')
-
+ document.write('<div>Welcome '+ user_name + '  👋  </div> ')
+document.write("<br>");
 
 // TASK 4
 var num = prompt('enter a number to show its multiplication table');
@@ -50,15 +33,18 @@ document.write( '<tr> <td>'+ num +'  x  10   </td><td> =</td>   <td>'+ num * 10 
 
 
 document.write('</table>')
+document.write("<br>");
+
+
 // TASK 5
 var sub1  = prompt('enter fist subject name');
 var sub2 = prompt('enter second subject name');
 var sub3 = prompt('enter third subject name');
 
 var total_marks = 100;
-var obt1 = prompt('enter obtained marks in maths');
-var obt2 = prompt('enter obtained marks in urdu');
-var obt3 = prompt('enter obtained marks in english');
+var obt1 = +prompt('enter obtained marks in maths');
+var obt2 = +prompt('enter obtained marks in urdu');
+var obt3 = +prompt('enter obtained marks in english');
 var total_obt = obt1 + obt2 +obt3 ;
 var percentage = (total_obt / 300)*100;
 
@@ -70,4 +56,29 @@ document.write( '<tr><td>' + (sub2) + '</td><td>100</td><td>' + (obt2)+ '</td><t
 document.write( '<tr><td>' + (sub3) + '</td><td>100</td><td>' + (obt3)+ '</td><td>' + (obt3/100*100)+ '%</td></tr>');
 document.write( '<tr><td></td><td>' + total_marks+ '</td><td>' + total_obt+ '</td><td>' + (percentage)+ '%</td></tr>');
 document.write('</table>' );
+var a = 10;
+ document.write('<div>');
+document.write("the value of a is: " + a + "<br>");
+document.write("..........................................." + "<br>");
+
+document.write("the  value of ++a is "+ ++a + "<br>");
+document.write(" now , the  value of ++a is "+ a + "<br>");
+document.write("..........................................." + "<br>");
+
+
+document.write("the  value of a++ is "+ a++ + "<br>");
+document.write(" now , the  value of a++ is "+ a + "<br>");
+document.write("..........................................." + "<br>");
+
+
+document.write("the  value of --a is "+ --a + "<br>");
+document.write(" now , the  value of --a is "+ a + "<br>");
+document.write("..........................................." + "<br>");
+
+
+document.write("the  value of a-- is "+ a-- + "<br>");
+document.write(",  now the  value of a-- is "+ a + "<br>");
+document.write("..........................................." + "<br>");
+
+document.write('</div>');
 
