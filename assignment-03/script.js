@@ -47,6 +47,7 @@ document.write( num +' x 10 = ' + num * 10 +'<br>');
 var maths = prompt('enter fist subject name');
 var urdu = prompt('enter second subject name');
 var english = prompt('enter third subject name');
+git push -u origin main
 
 var total_marks = 100;
 var obt1 = prompt('enter obtained marks in maths');
