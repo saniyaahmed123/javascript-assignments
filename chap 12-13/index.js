@@ -1,4 +1,4 @@
-document.write('<h1>' + 'RESULT 👇' + '</h1>')
+document.write('<h1>' + 'RESULTS 👇' + '</h1>')
 
 // TASK 1
 var char = prompt('ener a character a-z or A-Z or 0-9');
@@ -80,4 +80,53 @@ else if (alpha >= 'a'  &&   alpha <= 'z') {
 else {
     document.write('<h3> not an alphabet</h3>')
 
+}
+//  TASK 5
+var correctPassword = 'abc123';
+var userPassword = prompt('enter your password');
+if (!userPassword) {
+    document.write('<h3> enter your password</h3>')
+
+}
+else if (userPassword === correctPassword) {
+    document.write('<h3>correct password ✔️</h3>')
+
+}
+
+
+else {
+    document.write('<h3> incorrect password ❌</h3>')
+}
+
+//  TASK 6
+var greeting;
+var hour = +prompt('enter hour 0-23 ');
+if(hour<18){
+    greeting = 'Good day ☀️';
+}
+else if(hour>=18 && hour<=23){
+    greeting = 'Good evening 🌅';
+}
+else{
+    greeting = 'please enter a valid hour';
+}
+document.write('<h3>' + greeting + '</h3>')
+
+
+// TASK 7
+var time = +prompt('enter time in 24 hour format like 1900 = 7pm 🕰️');
+if (time <= 1200){
+    time = time / 100;
+    document.write('<h3> current time : ' + time +  ' am  ⏰</h3>')
+}
+else if (time === 1200){
+    document.write('<h3> current time : ' + 12 +  ' pm ⏰ </h3>')
+}
+ else if (time > 1200 && time <=2359){
+    time = time - 1200;
+    document.write('<h3> current time : ' + time +  ' pm ⏰ </h3>')
+}
+else{
+    document.write('<h3> invalid time  </h3>')
+    
 }
