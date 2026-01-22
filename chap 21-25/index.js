@@ -72,18 +72,18 @@ for (var i = 0; i < username.length; i++) {
 }
 
 // task 14
-var search = prompt('enter an item to search if it is available')
+var search = prompt('enter an item to search if it is available').toLowerCase()
 var bakery = ['cake', 'applepie', 'cookies', 'chips', 'patties'];
-var flag = false
+var flag = false>t
 for (var i = 0; i < bakery.length; i++) {
-    if (search === bakery[i]) {
-        document.write(`<h3>  ${user_input}is available at index${i}</h3>`);
+    if (search === bakery[i].toUpperCase) {
+        document.write(`<h3>  ${search}is available at index${i}</h3>`);
         flag = true
-        
+         break
     }
-    break
+   
 }
-if(flag){
-        document.write(`<h3>  ${user_input}is not available</h3>`);
+if(!flag){
+        document.write(`<h3>  ${search}is not available</h3>`);
 
 }
