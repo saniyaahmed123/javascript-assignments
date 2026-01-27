@@ -69,6 +69,4 @@ else{
 document.write(`<h3>sorry! the secret number was ${secret_num}</h3>`)
 
 }
-//task 
-var toss = 
 
