@@ -1,0 +1,26 @@
+/* Body background */
+body {
+    background-color: #f8f9fa;
+}
+
+/* Center alert button area */
+.link-div {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Image styling */
+img {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect */
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}

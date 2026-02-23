@@ -1,0 +1,16 @@
+
+.fan-pole {
+  position: absolute;
+  bottom: 40px;
+  left: 25px;
+  width: 30px;
+  height: 60px;
+  background: #777;
+  border-radius: 8px;
+}
+.fan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;    
+}
